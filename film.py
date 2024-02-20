@@ -36,6 +36,7 @@ film.display_info()
 # Spremanje informacija o filmu u datoteku
 Movie.save_to_file(film, "film.txt")
 
+
 # Učitavanje informacija o filmu iz datoteke
 ucitani_film = Movie.load_from_file("film.txt")
 ucitani_film.display_info()
